@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.carre {
+    height: 25rem;
+    width: 25rem;
+    background-color: orange;
+    overflow-x: auto;
+    padding: 1rem;
+    border: blue 3px solid;
+    border-radius: 20px;
+}
+.carre h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.carre p {
+    text-shadow: black 1px 1px 1px;
+    color: white;
+}
+@media screen and (max-width: 308px){
+    .carre {
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: green;
+    }
+}
